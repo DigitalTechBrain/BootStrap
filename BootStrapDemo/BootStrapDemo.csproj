@@ -68,9 +68,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="LoadingPage.aspx" />
+    <Content Include="MenuDemo.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LoadingPage.aspx.cs">
+      <DependentUpon>LoadingPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoadingPage.aspx.designer.cs">
+      <DependentUpon>LoadingPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MenuDemo.aspx.cs">
+      <DependentUpon>MenuDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenuDemo.aspx.designer.cs">
+      <DependentUpon>MenuDemo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
